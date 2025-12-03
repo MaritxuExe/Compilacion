@@ -64,10 +64,10 @@ la Sintaxis (ETDS). La implementación se realiza en C++ con Flex (analizador l�
 
 🚀 Compilación y uso
   
-  # Generar analizadores y compilar
+  //Generar analizadores y compilar
   make
 
-  # Limpiar archivos generados
+  //Limpiar archivos generados
   make clean
   
 
