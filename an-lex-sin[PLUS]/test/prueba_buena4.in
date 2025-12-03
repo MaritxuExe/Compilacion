@@ -1,0 +1,42 @@
+# prueba buena 4
+# Estructuras diferentes de la gramática%%
+def main ()
+let f : float;
+joseluis, id1, $ax_hjjt : float in {
+  def Calculo (a,b,c : int; z : & float)
+  '''Funcion Calculo*****/ Hace cálculos sin4ri6q357 Sentido$%&!"MX:Z-*
+  comentario multilínea'''
+  let d,e,f: float;
+  g : int in {
+      e = $ax_hjjt;
+      read(joseluis);
+      f = e/joseluis;
+      g = 0;
+      z = a/c*b-a;
+      if (z <= 0.6) {
+          forever {
+              g = g+1;
+              if g > 5000000 {break if z == 0;}
+          }
+      }
+      if (z > 0.7) {
+        z= 100000.0e-5;
+      }
+      print(z);
+  } #! fin calculo
+  def masdos (x: & int) {
+    x = x + 2;
+  } #! fin
+  read(a); read(b); read(f);
+  e = 2.6743E2;
+  print(e);
+  e = e * 4.900e+2;
+  print(e);
+  # masdos(f);
+  e = e - 0.5;
+  d = 1/e;
+  print(d);
+  # procesar(a,b); '''** si se * ** &%$·""?¿ñ^[]Çç:;-_,.\ | ! @ **** tratan las llamadas ***// '''
+  c = c*(c*d)+e;
+  print(c); print(f);
+} #! fin main

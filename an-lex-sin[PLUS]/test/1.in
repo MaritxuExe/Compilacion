@@ -1,0 +1,17 @@
+def main () # prueba buena 2
+    let  a,b,c : int;
+	 d,e : float ''' esto ' es un comentario 
+  	 multilinea ''' in {
+    def add ( x,y: int; result: & int)
+	let aux, iteration : int in {
+            do {
+                z = z / 2;
+                next;
+                z = z * 2;
+            } until (z < 10)
+            else {
+                z = z + 5;
+            }	
+    }	# end def add
+}
+

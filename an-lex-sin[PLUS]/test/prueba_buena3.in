@@ -1,0 +1,55 @@
+def main () # prueba buena 3
+let a, b, c: int;
+    d, e : float;
+    f : float in {
+  def procesar(x: int; y: int) # dos parámetros
+    let aux, vueltas_, $dato, dato__1: int in
+    '''' subprogramas anidados
+    '' Si se utiliza la Tabla de Símbolos, se podrá controlar el uso correcto por ámbitos '''
+  {
+        def masuno (x: & int) {
+            x = x + 1;
+        } # end
+        def menosuno (x: & int) {
+            x = x - 1;
+        } # end
+  
+        aux = y; $dato = x;
+        forever {
+            break if dato__1 < 0 ;
+            dato__1 = dato__1 - 1 * vueltas_ // y;
+        } # bucle infinito
+  
+        if $dato < 1000 {
+        vueltas_ = 0;
+            do {
+                # masuno($dato); ''' si se tratan llamadas a procedimientos '''
+                if $dato > 100000 { next; }
+                # menosuno(aux);
+                ''' llamadas ** a procedimientos '''
+                vueltas_ = vueltas_ + 1;
+            } until aux /= 0 else { print($dato); } #! do-until
+            if dato__1 == 0 { print(dato__1); }
+            if dato__1 > 0 { print(vueltas_); }
+        } #! if fin
+        print(vueltas_);
+    } #! end procesar
+
+    def masdos (x: & int) { # parametroa por referencia
+    x = x + 2;
+    }#! fin
+    '''*** aquí comienza el ** / *
+    programa principal ***''''
+    read(a); read(b); read(f);
+    e = 2.6743E2;
+    print(e);
+    e = e * 4.900e+2;
+    print(e);
+    #! masdos(f);
+    e = e - 0.5;
+    d = 1/e;
+    print(d);
+    # procesar(a,b); ''''' Estos no son tokens, están dentro de un comentario* ** &%$·""?¿ñ^[]Çç:;-_,. \ | ! @ **** *** '''''
+    c = c*(c*d)+e;
+    print(c); print(f);
+} #! end main

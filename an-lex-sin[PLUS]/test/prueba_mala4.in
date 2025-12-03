@@ -1,0 +1,31 @@
+# prueba mala 5
+
+
+def main ()
+let f : float;
+fiona, id1, $ax_hjjt : float in {
+  def Calculo (a,b,c : int; z : & float)
+  let d,e,f: float;
+  g : int in {
+      e = $ax_hjjt;
+      read(fiona);
+      f = e/fiona;
+      g = 0;
+      z = a/c*b-a;
+      if (z == 0.1) {
+          forever {
+              g = g+1;
+              if g > 5000000 {break if z == 0;}
+          }
+      } elsif ((z == 0.25) || (z == 0.2)){ 
+        z = z * g;      
+      } elsif ((z == 0.3) && (z > 0.5)){
+        z = z - 0.1;
+      } elsif (z == 0.4){
+        z = z + 8;
+      } elsif !(z){
+        z = z / f;
+      } # ERROR: FALTA EL ELSE
+      print(z);
+  } #! fin calculo
+} #! fin main
