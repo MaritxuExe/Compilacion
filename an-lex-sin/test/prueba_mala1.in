@@ -1,0 +1,12 @@
+def main () # prueba mala 1
+
+let a : float in
+{
+ ''' esto ***  es un comentario **
+   sin cerrar. Lo de abajo no se acepta porque esta dentro del comentario multilinea
+
+# hasta fin de linea
+   a = 0.4756;
+   
+}
+

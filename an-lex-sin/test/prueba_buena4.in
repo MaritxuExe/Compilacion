@@ -1,0 +1,51 @@
+# prueba buena 4
+# Queremos probar diferentes estructuras de la gramática%%
+
+def main () 
+  let f : float;
+  joseluis, id1, $ax_hjjt : float in {
+
+  def kalkuluko (a,b,c : int; z : & float)
+  '''la función kalkuluko*****/ hace calculos a lo loco sin Sent4i6q357do $%&!"MX:Z-*
+   es comentario multilinea'''
+  let d,e,f: float;
+    g : int in
+  {
+    e = $ax_hjjt;
+    read(joseluis);
+    f = e/joseluis;
+    g = 0;
+    z = a/c*b-a;
+    if (z <= 0.6) {
+        forever {
+            g = g+1;
+            break if g > 5000000;
+        }
+    }
+    if (z > 0.7) {
+        z= 100000.0e-5;
+    }
+    print(z);
+  } #! end kalkuluko
+
+
+  def gehibi (x: & int)  {
+    x = x + 2;
+  } #! end
+
+
+  read(a); read(b); read(f);
+  e = 2.6743E2;
+  print(e);
+  e = e * 4.900e+2;
+  print(e);
+  # gehibi(f);
+  e = e - 0.5;
+  d = 1/e;
+  print(d);
+  # prozesatu(a,b); '''** para tratar * ** &%$·""?¿ñ^[]Çç:;-_,.\ | ! @ **** llamadas a subprogramas ***// '''
+  c = c*(c*d)+e;
+  print(c); print(f);
+} #! end main 
+
+

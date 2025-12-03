@@ -1,0 +1,13 @@
+def main () # prueba mala 2
+
+let a : float in
+{
+ '''** esto es *** / un **
+   comentario ***''' esto esta fuera '''
+
+# hasta fin de linea
+   a = 0.4756 ;
+   
+
+}
+

@@ -1,0 +1,62 @@
+def main () # prueba buena 3
+let a, b, c: int;
+    d, e : float;
+    f : float in {
+  def prozesatu(x: int; y: int)  # dos parametros por valor
+    let lag, bueltak_, $emaitza, emaitza__1: int in
+    '''' subprogramas imbricados
+     ''  controlar bien luego, utilizando la tabla de símbolos '''
+  {
+    def gehibat (x: & int)  {
+      x = x + 1;
+    } # end
+    def kenbat (x: & int) {
+      x = x - 1;
+    } # end
+ 
+    lag = y; $emaitza = x;
+    forever {
+      break if emaitza__1 < 0 ;
+      emaitza__1 = emaitza__1 - 1 * bueltak_ // y;
+    } # infinite loop 
+
+    if $emaitza < 1000 {
+      bueltak_ = 0;
+      do {
+	# gehibat($emaitza); ''' para tratar llamadas ?? a subprogramas '''
+	if $emaitza > 100000 { next; }
+	# kenbat(lag);	   ''' para tratar llamadas ** a subprogramas '''
+	bueltak_ = bueltak_ + 1;
+      }  until lag /= 0 else { print($emaitza); }  #! do-until
+   
+      if emaitza__1 == 0 { print(emaitza__1); }
+      if emaitza__1 > 0 { print(bueltak_); }
+    } #! end if
+  
+    print(bueltak_);
+  } #! end prozesatu
+
+  def gehibi (x: & int)  { # parametro por referencia
+    x = x + 2;
+  } #! end
+
+'''*** aqui comienza el  ** / *
+       programa principal ***''''
+
+  read(a); read(b); read(f);
+  e = 2.6743E2;
+  print(e);
+  e = e * 4.900e+2;
+  print(e);
+  #! gehibi(f);
+  e = e - 0.5;
+  d = 1/e;
+  print(d);
+  # prozesatu(a,b);   ''''' Los símbolos que hay después NO SON NUEVOS TOKENS, estan dentro de un comentario * ** &%$·""?¿ñ^[]Çç:;-_,.\ | ! @   **** *** '''''
+  c = c*(c*d)+e;
+  print(c); print(f);
+} #! end main
+
+
+
+

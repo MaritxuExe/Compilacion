@@ -1,0 +1,11 @@
+def main () # prueba buena 1
+let $a_2_bc_ : float in {
+ ''' esto *** ' es un **
+   ''	comentario '''
+
+# hasta fin de linea
+   $a_2_b__c_ = 0.4756 ;
+   
+
+}
+
